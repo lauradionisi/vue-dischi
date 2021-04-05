@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #1e2d3b;
+}
+
+/* SEZIONE SUPERIORE NAV */
+.nav  {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #2e3a46;
+}
+
+.logo img {
+    height: 60px;
+    margin-left: 30px;
+}
+
+/* SEZIONE DISCHI */
+.disc-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 80%;
+    width: 100%;
+}
+
+.album {
+    width: 150px;
+    height: 300px;
+    background-color: #2e3a46;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.album-image,
+.album-text {
+    width: 80%;
+    margin: 0 auto;
+    height: 100px;
+    margin-top: 30px;
+
+}
+.album-image img {
+    width: 100%;
+}
+
+.album-text {
+    text-align: center;
+}
+.album-text h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.album-text span {
+    font-weight: 100;
+}
+
+
+
