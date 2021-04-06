@@ -20,19 +20,19 @@
                 </div>
             </div>
             <div class="disc-container">
-                <div class="album" v-for="album in titles.length">
-                    <div v-for="image in images" class="album-image" >
-                        <img :src="image" alt="">
+                <div class="album" v-for="album in albums">
+                    <div class="album-image" >
+                        <img :src="album.poster" alt="">
                     </div>
                     <div class="album-text">
-                        <h2 v-for="title in titles" >
-                            {{ title }}
+                        <h2>
+                            {{ album.title }}
                         </h2>
-                        <h4 v-for="author in authors" >
-                            {{ author }}                     
+                        <h4>
+                            {{ album.author }}                     
                         </h4>
-                        <span v-for="year in years" >
-                            {{ year }}                     
+                        <span>
+                            {{ album.year }}                     
                         </span>
                     </div>
                 </div>

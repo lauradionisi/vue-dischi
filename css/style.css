@@ -29,18 +29,18 @@
 .disc-container {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
     height: 80%;
     width: 100%;
 }
 
 .album {
     width: 150px;
-    height: 300px;
+    height: auto;
     background-color: #2e3a46;
     color: white;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 30px;
 }
 
 .album-image,
@@ -57,13 +57,17 @@
 
 .album-text {
     text-align: center;
+    font-size: 14px;
 }
 .album-text h4 {
     margin-bottom: 10px;
     margin-top: 10px;
+    color: #777676;
 }
 .album-text span {
     font-weight: 100;
+    color: #777676;
+
 }
 
 
